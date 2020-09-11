@@ -2,11 +2,34 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <RepositoryUrl>https://github.com/exequiel22/Scripting</RepositoryUrl>
+    <Copyright>exequiroga.com</Copyright>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageIcon>iconpackage.png</PackageIcon>
+    <RepositoryType>publico</RepositoryType>
+    <PackageTags>Script,Scripting</PackageTags>
+    <Description>Libreria para generar script runtime en CSharp</Description>
+    <NeutralLanguage>es-AR</NeutralLanguage>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <Authors>Exequiel Quiroga</Authors>
+    <Product>CSharpScripting</Product>
+    <PackageId>CSharpScripting</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="3.7.0" />
     <PackageReference Include="System.Runtime.Caching" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\iconpackage.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
